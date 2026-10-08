@@ -1,38 +1,38 @@
-2026-10-02 14:00:00,012 INFO tasks.send_phone_messages_all_orgs Starting a message sending cycle
-2026-10-02 14:00:00,047 INFO tasks.send_phone_messages_all_orgs Triggering a message sending cycle in 1
-2026-10-02 14:00:00,051 INFO tasks.send_phone_messages_all_orgs Triggering a message sending cycle in 2
-2026-10-02 14:00:00,083 INFO tasks.send_phone_messages_for_org Starting a message sending cycle for 1
-2026-10-02 14:00:00,091 INFO tasks.send_phone_messages_for_org Starting a message sending cycle for 2
-2026-10-02 14:00:00,412 INFO tasks.send_phone_messages_for_org Sending 50 messages in 1
-2026-10-02 14:00:00,488 INFO tasks.send_phone_messages_for_org Sending 100 messages in 2
-2026-10-02 14:00:33,951 INFO tasks.send_phone_messages_for_org Completed sending cycle for 1
-2026-10-02 14:00:38,640 INFO tasks.send_phone_messages_for_org Completed sending cycle for 2
-2026-10-02 14:01:50,009 INFO tasks.send_phone_messages_all_orgs Starting a message sending cycle
-2026-10-02 14:01:50,038 INFO tasks.send_phone_messages_all_orgs Triggering a message sending cycle in 1
-2026-10-02 14:01:50,042 INFO tasks.send_phone_messages_all_orgs Triggering a message sending cycle in 2
-2026-10-02 14:01:50,071 INFO tasks.send_phone_messages_for_org Starting a message sending cycle for 1
-2026-10-02 14:01:50,086 INFO tasks.send_phone_messages_for_org Starting a message sending cycle for 2
-2026-10-02 14:01:50,377 INFO tasks.send_phone_messages_for_org Sending 50 messages in 1
-2026-10-02 14:01:50,451 INFO tasks.send_phone_messages_for_org Sending 100 messages in 2
-2026-10-02 14:02:00,014 INFO tasks.send_phone_messages_all_orgs Starting a message sending cycle
-2026-10-02 14:02:00,061 INFO tasks.send_phone_messages_all_orgs Triggering a message sending cycle in 1
-2026-10-02 14:02:00,066 INFO tasks.send_phone_messages_all_orgs Triggering a message sending cycle in 2
-2026-10-02 14:02:00,095 INFO tasks.send_phone_messages_for_org Starting a message sending cycle for 2
-2026-10-02 14:02:00,102 INFO tasks.send_phone_messages_for_org Starting a message sending cycle for 1
-2026-10-02 14:02:00,371 INFO tasks.send_phone_messages_for_org Sending 100 messages in 2
-2026-10-02 14:02:00,436 INFO tasks.send_phone_messages_for_org Sending 50 messages in 1
-2026-10-02 14:02:21,102 INFO tasks.send_phone_messages_for_org Completed sending cycle for 1
+2026-10-02 14:00:00,012 INFO tasks.send_phone_messages_all_orgs Starting a message sending cycle xfn
+2026-10-02 14:00:00,047 INFO tasks.send_phone_messages_all_orgs Triggering a message sending cycle in 1 xfn
+2026-10-02 14:00:00,051 INFO tasks.send_phone_messages_all_orgs Triggering a message sending cycle in 2 xfn
+2026-10-02 14:00:00,083 INFO tasks.send_phone_messages_for_org Starting a message sending cycle for 1 xfn
+2026-10-02 14:00:00,091 INFO tasks.send_phone_messages_for_org Starting a message sending cycle for 2 xfn
+2026-10-02 14:00:00,412 INFO tasks.send_phone_messages_for_org Sending 50 messages in 1 xfn
+2026-10-02 14:00:00,488 INFO tasks.send_phone_messages_for_org Sending 100 messages in 2 xfn
+2026-10-02 14:00:33,951 INFO tasks.send_phone_messages_for_org Completed sending cycle for 1 xfn
+2026-10-02 14:00:38,640 INFO tasks.send_phone_messages_for_org Completed sending cycle for 2 xfn
+2026-10-02 14:01:50,009 INFO tasks.send_phone_messages_all_orgs Starting a message sending cycle bfw
+2026-10-02 14:01:50,038 INFO tasks.send_phone_messages_all_orgs Triggering a message sending cycle in 1 bfw
+2026-10-02 14:01:50,042 INFO tasks.send_phone_messages_all_orgs Triggering a message sending cycle in 2 bfw
+2026-10-02 14:01:50,071 INFO tasks.send_phone_messages_for_org Starting a message sending cycle for 1 bfw
+2026-10-02 14:01:50,086 INFO tasks.send_phone_messages_for_org Starting a message sending cycle for 2 bfw
+2026-10-02 14:01:50,377 INFO tasks.send_phone_messages_for_org Sending 50 messages in 1 bfw
+2026-10-02 14:01:50,451 INFO tasks.send_phone_messages_for_org Sending 100 messages in 2 bfw
+2026-10-02 14:02:00,014 INFO tasks.send_phone_messages_all_orgs Starting a message sending cycle qvc
+2026-10-02 14:02:00,061 INFO tasks.send_phone_messages_all_orgs Triggering a message sending cycle in 1 qvc
+2026-10-02 14:02:00,066 INFO tasks.send_phone_messages_all_orgs Triggering a message sending cycle in 2 qvc
+2026-10-02 14:02:00,095 INFO tasks.send_phone_messages_for_org Starting a message sending cycle for 2 qvc
+2026-10-02 14:02:00,102 INFO tasks.send_phone_messages_for_org Starting a message sending cycle for 1 qvc
+2026-10-02 14:02:00,371 INFO tasks.send_phone_messages_for_org Sending 100 messages in 2 qvc
+2026-10-02 14:02:00,436 INFO tasks.send_phone_messages_for_org Sending 50 messages in 1 qvc
+2026-10-02 14:02:21,102 INFO tasks.send_phone_messages_for_org Completed sending cycle for 1 bfw
 2026-10-02 14:02:24,616 INFO models.PhoneMessage.send_message_to_provider Sent message 48213 to contact 9117
-2026-10-02 14:02:27,318 INFO tasks.send_phone_messages_for_org Completed sending cycle for 2
+2026-10-02 14:02:27,318 INFO tasks.send_phone_messages_for_org Completed sending cycle for 2 bfw
 2026-10-02 14:02:30,183 INFO models.PhoneMessage.send_message_to_provider Sent message 48213 to contact 9117
-2026-10-02 14:02:34,211 INFO tasks.send_phone_messages_for_org Completed sending cycle for 2
-2026-10-02 14:02:39,887 INFO tasks.send_phone_messages_for_org Completed sending cycle for 1
-2026-10-02 14:03:00,010 INFO tasks.send_phone_messages_all_orgs Starting a message sending cycle
-2026-10-02 14:03:00,040 INFO tasks.send_phone_messages_all_orgs Triggering a message sending cycle in 1
-2026-10-02 14:03:00,044 INFO tasks.send_phone_messages_all_orgs Triggering a message sending cycle in 2
-2026-10-02 14:03:00,077 INFO tasks.send_phone_messages_for_org Starting a message sending cycle for 1
-2026-10-02 14:03:00,085 INFO tasks.send_phone_messages_for_org Starting a message sending cycle for 2
-2026-10-02 14:03:00,341 INFO tasks.send_phone_messages_for_org Sending 3 messages in 2
-2026-10-02 14:03:00,398 INFO tasks.send_phone_messages_for_org Sending 50 messages in 1
-2026-10-02 14:03:31,520 INFO tasks.send_phone_messages_for_org Completed sending cycle for 2
-2026-10-02 14:03:36,920 INFO tasks.send_phone_messages_for_org Completed sending cycle for 1
+2026-10-02 14:02:34,211 INFO tasks.send_phone_messages_for_org Completed sending cycle for 2 qvc
+2026-10-02 14:02:39,887 INFO tasks.send_phone_messages_for_org Completed sending cycle for 1 qvc
+2026-10-02 14:03:00,010 INFO tasks.send_phone_messages_all_orgs Starting a message sending cycle vgh
+2026-10-02 14:03:00,040 INFO tasks.send_phone_messages_all_orgs Triggering a message sending cycle in 1 vgh
+2026-10-02 14:03:00,044 INFO tasks.send_phone_messages_all_orgs Triggering a message sending cycle in 2 vgh
+2026-10-02 14:03:00,077 INFO tasks.send_phone_messages_for_org Starting a message sending cycle for 1 vgh
+2026-10-02 14:03:00,085 INFO tasks.send_phone_messages_for_org Starting a message sending cycle for 2 vgh
+2026-10-02 14:03:00,341 INFO tasks.send_phone_messages_for_org Sending 3 messages in 2 vgh
+2026-10-02 14:03:00,398 INFO tasks.send_phone_messages_for_org Sending 50 messages in 1 vgh
+2026-10-02 14:03:31,520 INFO tasks.send_phone_messages_for_org Completed sending cycle for 2 vgh 
+2026-10-02 14:03:36,920 INFO tasks.send_phone_messages_for_org Completed sending cycle for 1 vgh
