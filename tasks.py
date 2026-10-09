@@ -29,7 +29,7 @@ def send_phone_messages_for_org(organization_id: int, sending_cycle_id: str) -> 
     eligible_messages_for_send = eligible_messages_for_send[:messaging_client.sending_rate]
 
     # Set the content of the message from the broadcast and ship it to the provider.
-    logger.info(f"Sending {len(eligible_messages_for_send)} messages in {organization_id}, sending cycle id {sending_cycle_id}")
+    logger.info(f"Sending {len(eligible_messages_for_send)} messages in org {organization_id}, sending cycle id {sending_cycle_id}")
     for message in eligible_messages_for_send:
         message.text = message.broadcast.text
         message.image_url = message.broadcast.image_url
