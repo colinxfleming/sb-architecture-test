@@ -10,4 +10,3 @@ def receive_provider_status_update(payload: dict[str, str]) -> None:
     message = PhoneMessage.objects.get(id=message_id)
     message.send_status = send_status
     message.save()
-    logger.info(f"Updated message status for {message_id} to {send_status}")
